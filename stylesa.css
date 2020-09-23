@@ -436,8 +436,6 @@ img {
 #about .col-left {
   width: 712px;
   height: auto;
-  /* padding-top: 84px; */
-  /* margin-left: 75px; */
 }
 
 #about .col-left h2 {
@@ -669,7 +667,7 @@ img {
 
 /* Media Query For I-Pad */
 
-@media only screen and (max-width: 1200px) and (min-width:700px){
+@media only screen and (max-width: 1200px) and (min-width: 700px) {
   #hero .hero .hero-info-subheading {
     font-family: Mulil;
     font-size: 17px;
@@ -868,7 +866,6 @@ img {
     font-size: 16px;
   }
 
-
   .portfolio .home-cards .portfolio-detail {
     font-family: Mulil;
     font-size: 13px;
@@ -894,6 +891,118 @@ img {
   }
 
   /* End of Portfolio Section  */
+
+  /* About */
+  #about .about {
+    flex-direction: column;
+    margin-top: 120px;
+  }
+  #about .col-left {
+    width: auto;
+    height: auto;
+    margin: 0 16px;
+  }
+
+  #about .col-left h2 {
+    font-family: Cormorant Garamond;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-bottom: 16px;
+  }
+
+  #about .col-left p {
+    font-family: Mulil;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  #about .col-left .resumedownload {
+    display: inline-block;
+    padding: 13px 23px;
+    color: #278056;
+    background-color: #f8f4ed;
+    border: 2px solid;
+    transition: 0.3s ease;
+    transition-property: background-color, color;
+    font-family: Mulil;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-top: 44px;
+    margin-bottom: 84px;
+  }
+
+  #about .resumedownload:hover {
+    color: #ffffff;
+    background-color: #278056;
+  }
+
+  #about .col-right {
+    margin: 0;
+    width: 100%;
+
+    padding-bottom: 0px;
+  }
+
+  #about .col-right .about-img {
+    max-width: 414px;
+    margin: auto;
+  }
+
+  #about .about-description {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 44px;
+    /* margin-left: 16px;
+    margin-right: 16px; */
+  }
+
+  #about .about-description .description {
+    font-family: Mulil;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    max-width: 982px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  #about .about-description .description h3 {
+    font-family: Cormorant Garamond;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-bottom: 12px;
+  }
+
+  #about .about-description .description1 {
+    margin-bottom: 44px;
+  }
+
+  /* End About */
 
   /* Footer */
 
