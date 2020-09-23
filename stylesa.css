@@ -965,7 +965,7 @@ img {
   #about .about-description {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 50vh;
     width: 100%;
     margin-top: 44px;
     /* margin-left: 16px;
@@ -1014,6 +1014,7 @@ img {
     margin-bottom: 64px;
     margin-top: 67px;
   }
+  
   #footer .footer {
     min-height: 0px;
     flex-direction: column;
