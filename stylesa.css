@@ -354,18 +354,18 @@ img {
   align-items: center;
 
   grid-template-columns: 461px 461px;
-  grid-template-rows: 620px 620px;
+  grid-template-rows: 625px 625px;
   column-gap: 121px;
-  row-gap: 90px;
+  row-gap: 126px;
 }
 
 .portfolio .home-cards .home-card {
   padding-top: 0cm;
 }
 
-.portfolio .home-cards .home-card-even {
+/* .portfolio .home-cards .home-card-even {
   padding-top: 300px;
-}
+} */
 
 .portfolio .home-cards-img {
   overflow: hidden;
@@ -428,6 +428,54 @@ img {
 }
 
 /* End of Portfolio Section  */
+
+/* dribble button */
+
+.dribbble-button {
+  /* min-height: 30vh; */
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-top: 172px; */
+}
+
+.dribbble-button h2 {
+  font-family: Cormorant Garamond;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 12.5%;
+}
+.dribbble-button a {
+  margin-top: 36px;
+  padding: 13px 43px 13px 43px;
+  background-color: #f8f4ed;
+  border: #278056 solid 2px;
+  color: #278056;
+  font-family: Mulil;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: 0.3s ease;
+  transition-property: background-color, color, border;
+  margin-left: 12.5%;
+}
+
+.dribbble-button a:hover {
+  background-color: #278056;
+  color: #ffffff;
+  border: #278056 solid 2px;
+}
+
+/* end of dribble button */
 
 /* About */
 #about .about {
@@ -531,8 +579,8 @@ img {
   margin: auto;
   width: 75%;
   /* border-width: 10px; */
-  color: #6d6d6d;
-  background-color: #6d6d6d;
+  color: #dcdcdc;
+  background-color: #dcdcdc;
   margin-bottom: 90px;
   margin-top: 167px;
 }
@@ -544,8 +592,8 @@ img {
 }
 
 #footer .primary {
-  padding-left: 125px;
-  padding-right: 125px;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
   display: flex;
   margin-bottom: 90px;
   flex-direction: column;
@@ -802,7 +850,7 @@ img {
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    /* line-height: 29px; */
+    
     letter-spacing: 0em;
     text-align: left;
 
@@ -811,7 +859,7 @@ img {
 
   .portfolio .portfolio-info-description {
     font-family: Mulil;
-    font-size: 16px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 300;
     line-height: 24px;
@@ -1014,7 +1062,7 @@ img {
     margin-bottom: 64px;
     margin-top: 67px;
   }
-  
+
   #footer .footer {
     min-height: 0px;
     flex-direction: column;
